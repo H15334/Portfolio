@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Pal - Author & Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Add some subtle animation */
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-10 fade-in">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-600">Himanshu Pal</div>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a></li>
+                <li><a href="#book" class="text-gray-600 hover:text-indigo-600 transition duration-300">Book</a></li>
+                <li><a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="about" class="mb-16 fade-in" style="animation-delay: 0.2s;">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">About Me</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
+                <img src="https://placehold.co/150x150/E0E7FF/4F46E5?text=HP" alt="Himanshu Pal" class="w-32 h-32 rounded-full mb-6 md:mb-0 md:mr-8 border-4 border-indigo-200" onerror="this.src='https://placehold.co/150x150/cccccc/ffffff?text=Image+Error'">
+                <div>
+                    <p class="text-lg mb-4">
+                        Hello! I'm Himanshu Pal, based in Paralakhemundi, Odisha, India.
+                        I'm passionate about web development and sharing knowledge through writing.
+                    </p>
+                    <p class="text-lg">
+                        I enjoy creating useful tools and resources for beginners venturing into the world of technology.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="book" class="mb-16 fade-in" style="animation-delay: 0.4s;">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">My Book</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-start">
+                <img src="https://placehold.co/200x300/E0E7FF/4F46E5?text=HTML+Basics" alt="HTML Basics Book Cover" class="w-48 md:w-1/4 rounded-md shadow-md mb-6 md:mb-0 md:mr-8" onerror="this.src='https://placehold.co/200x300/cccccc/ffffff?text=Book+Cover+Error'">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-800">HTML Basics: A Beginner's Guide</h3>
+                    <p class="text-lg mb-4">
+                        This book serves as a comprehensive guide for anyone starting their journey with HTML. It covers the fundamental concepts, structure, elements, attributes, and essential components needed to build web pages.
+                    </p>
+                    <h4 class="text-xl font-medium mb-2">Key Topics Covered:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1 mb-4">
+                        <li>Introduction to HTML and its history</li>
+                        <li>Basic HTML document structure</li>
+                        <li>Common HTML elements and tags (Headings, Paragraphs, Links, Images, Lists)</li>
+                        <li>HTML attributes (href, src, alt, class, id)</li>
+                        <li>Creating HTML forms for user input</li>
+                        <li>Structuring data with HTML tables</li>
+                        <li>Embedding media (Images, Video, Audio)</li>
+                        <li>Understanding HTML entities</li>
+                        <li>Introduction to Semantic HTML5</li>
+                    </ul>
+                    <p class="text-md text-gray-600">
+                        (Available for purchase soon - This website helps support my application to the Google Play Books Partner Center!)
+                    </p>
+                    </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-16 fade-in" style="animation-delay: 0.6s;">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">My Projects</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-3 text-indigo-800">Notex Web App</h3>
+                <p class="text-lg mb-4">
+                    Notex is a simple and intuitive note-taking web application I developed. It allows users to quickly create, manage, and organize their notes online.
+                </p>
+                <a href="https://h15334.github.io/Notex/" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-500 text-white px-6 py-2 rounded-md hover:bg-green-600 transition duration-300">
+                    Visit Notex
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-in" style="animation-delay: 0.8s;">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">Get In Touch</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                <p class="text-lg mb-4">
+                    Interested in learning more about my book or projects? Feel free to reach out!
+                </p>
+                <p class="text-lg font-medium text-gray-700">
+                    Himanshu Pal <br>
+                    Paralakhemundi, Odisha, India
+                </p>
+                <p class="mt-4 text-lg">Email: <a href="mailto:memevideor101@gmail.com" class="text-indigo-600 hover:underline">memevideor101@gmail.com</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 text-center py-6 mt-16">
+        <p>&copy; <span id="current-year"></span> Himanshu Pal. All rights reserved.</p>
+        <p>Paralakhemundi, Odisha, India</p>
+    </footer>
+
+    <script>
+        // Simple script to set the current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
